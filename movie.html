@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS DOM</title>
+        <link rel="stylesheet" href="movie.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <div id="page-banner">
+                    <h1 class="title">Moviemania</h1>
+                    <p>MOVIES</p>
+                    <form id="search-movies">
+                        <input type="text" placeholder="Search movies..."/>
+                    </form>
+                </div>
+            </header>
+            <div id="movie-list">
+                <h2 class="title">Movies to watch</h2>
+                <ul id="movies">
+                    <li>
+                        <span class="name">Bird Box</span>
+                        <span class="delete">Delete</span>
+                    </li>
+                    <li>
+                        <span class="name">Game Night</span>
+                        <span class="delete">Delete</span>
+                    </li>
+                    <li>
+                        <span class="name">Black Hawk Down</span>
+                        <span class="delete">Delete</span>
+                    </li>
+                    <li>
+                        <span class="name">Don't Breathe</span>
+                        <span class="delete">Delete</span>
+                    </li>
+                </ul>
+            </div>
+            <form id="add-movie">
+                <input type="checkbox" id="hide" />
+                <label for="hide">Hide the list</label>
+                <input type="text" placeholder="Add a movie..."/>
+                <button>Add</button>
+            </form>
+        </div>
+        <script src="java1.js"></script>
+
+    </body>
+</html>
